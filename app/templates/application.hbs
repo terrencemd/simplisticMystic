@@ -8,22 +8,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Simplistic Mystic</a>
+      <a class="navbar-brand">Simplistic Mystic</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav pull-right">
 
-      {{#bs-dropdown tagName="li"}}
-        {{#bs-dropdown-toggle}}Dropdown <span class="caret"></span>{{/bs-dropdown-toggle}}
-        {{#bs-dropdown-menu}}
-          <li>Something</li>
-          <li>Something different</li>
-        {{/bs-dropdown-menu}}
-      {{/bs-dropdown}}
 
+      <li>{{#link-to "home"}}Home{{/link-to}}</li>
       <li>{{#link-to "chakras"}}Chakras{{/link-to}}</li>
+      <li>{{#link-to "tools"}}Tool Chest{{/link-to}}</li>
+      <li>{{#link-to "masters"}}Ascended Masters{{/link-to}}</li>
+      <li>{{#link-to "archangels"}}ArchAngels{{/link-to}}</li>
+      <li>{{#link-to "gaia"}}Gaia{{/link-to}}</li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
