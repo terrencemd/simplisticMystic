@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
 
-	classNames: ['col-md-8, pageHeader'],
+	classNames: ['col-md-10 col-md-offset-1 pageHeader'],
 
 	firstArray: ["K","e","e","p"," ","T","h","o","s","e"," ","C","h","a","k","r","a","s"," ","C","l","e","a","r","!"],
 

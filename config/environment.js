@@ -8,7 +8,8 @@ module.exports = function(environment) {
     locationType: 'auto',
     googleFonts: [
       'Sigmar One:400',
-      'Roboto:300'
+      'Roboto:300',
+      'Pacifico:400'
     ],
     contentSecurityPolicy: {
       'font-src': "'self' fonts.gstatic.com",

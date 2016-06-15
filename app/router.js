@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('masters');
   this.route('archangels');
   this.route('gaia');
+  this.route('guides');
 });
 
 export default Router;

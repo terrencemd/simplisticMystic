@@ -1,12 +1,22 @@
 <div>
-	
-	<img class="cardImage" src="assets/images/rootChakra.jpg">
+	<div><img class="cardImage" src="{{image}}"></div>
 
-	<span>This is the text that is going to be on the bottom.</span>
+	<div><h1>{{name}}</h1></div>
 
-	{{#bs-button type="primary" icon="glyphicon glyphicon-heart"}}
+	<div class="colorDes"><span>{{color}}</span></div>
+
+	<div class="seperator"><span>{{des}}</span></div>
+
+
+	{{#bs-button type="warning" icon="glyphicon glyphicon-heart" action='modalToggle'}}
 		More Info
 	{{/bs-button}}
 
 
 </div>
+
+{{#bs-modal title=name open=openModal}}
+   <h3>Take a deep breath and TONE:{{statement}}</h3>
+   <h3>Breathe deeply and TONE:{{tone}}</h3>
+   <h3>State to Yourself:</h3><span class="modalSpan">{{declaration}}</span>
+{{/bs-modal}}
